@@ -1,3 +1,3 @@
-module ShadowX
+module main
 
 go 1.24.1

@@ -30,7 +30,7 @@ ShadowX is a secure file transfer application that allows you to transfer files 
 
 2. Build the application:
    ```bash
-   go build -ldflags "-s -w" -o ShadowX
+   CGO_ENABLED=0 go build -ldflags "-s -w" -o ShadowX
    ```
 
 3. Run the application:
